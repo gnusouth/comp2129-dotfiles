@@ -1,6 +1,6 @@
 #!/bin/bash
 
-files=(inputrc bashrc nanorc nano)
+files=(inputrc bashrc bash_profile nanorc nano)
 
 for f in ${files[@]}
 do

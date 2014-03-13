@@ -9,6 +9,10 @@ alias grep='grep --color=auto'
 alias mv='mv -i'
 alias cp='cp -i'
 
+# Use less as the system pager & nano as the default editor
+export PAGER="less"
+export EDITOR="nano"
+
 # Coloured prompt
 BLACK="\[\033[0;30m\]"
 BLACKBOLD="\[\033[1;30m\]"
@@ -26,8 +30,9 @@ CYAN="\[\033[0;36m\]"
 CYANBOLD="\[\033[1;36m\]"
 WHITE="\[\033[0;37m\]"
 WHITEBOLD="\[\033[1;37m\]"
+DEFAULT="\[\e[0;39m\]"
 
-export PS1="$GREENBOLD\u$WHITE: $BLUEBOLD\W$WHITE $ "
+export PS1="$GREENBOLD\u$DEFAULT: $BLUEBOLD\W$DEFAULT $ "
 
 # USYD proxy configuration (don't use this at home)
 # export HTTP_PROXY=web-cache.usyd.edu.au:8080
