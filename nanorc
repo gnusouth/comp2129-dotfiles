@@ -1,0 +1,11 @@
+# C syntax highlighting
+include ~/.nano/c.nanorc
+
+# Shell syntax highlighting
+include ~/.nano/sh.nanorc
+
+# Makefile syntax highlighting
+include ~/.nano/makefile.nanorc
+
+# Don't wrap long lines
+set nowrap

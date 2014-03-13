@@ -1,0 +1,6 @@
+# Recall similar commands from history using the arrow keys
+# Example:
+# $ gcc <UP ARROW> becomes
+# $ gcc -W -Wall -pedantic -std=c99 -o program program.c
+"\e[A":history-search-backward
+"\e[B":history-search-forward
