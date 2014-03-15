@@ -2,7 +2,7 @@
 [[ $- != *i* ]] && return
 
 # Enable coloured commands
-alias ls='ls --color=auto'
+alias ls='ls -G'
 alias grep='grep --color=auto'
 
 # Make cp and mv safe by default (prompt before overwriting)
