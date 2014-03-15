@@ -63,10 +63,18 @@ If you're on a uni computer, you'll first need to set up the proxy.
 $ export HTTP_PROXY=web-cache.usyd.edu.au:8080
 ```
 
-You can then clone the repository to ~/dotfiles
+You can then clone the repository to ~/dotfiles. Make sure you use the right command if you're on OS X.
+
+If you're on Linux:
 
 ```
 $ git clone https://github.com/gnusouth/comp2129-dotfiles.git ~/dotfiles
+```
+
+If you're on OS X:
+
+```
+$ git clone -b osx https://github.com/gnusouth/comp2129-dotfiles.git ~/dotfiles
 ```
 
 Finally, run the install script to place links from the correct places to your files (yay for symbolic links). You can copy the files manually if you wish, but my personal preference is for symbolic links (remember they're like shortcuts on Windows).
